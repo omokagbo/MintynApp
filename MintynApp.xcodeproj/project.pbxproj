@@ -23,6 +23,8 @@
 		B4FF7C24273AD595001B0462 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C23273AD595001B0462 /* UIView+Extension.swift */; };
 		B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C25273AD679001B0462 /* Gradient Button.swift */; };
 		B4FF7C29273AE2F9001B0462 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B4FF7C28273AE2F9001B0462 /* IQKeyboardManagerSwift */; };
+		B4FF7C40273B1C62001B0462 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C3E273B1C62001B0462 /* HomeViewController.swift */; };
+		B4FF7C41273B1C62001B0462 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C3F273B1C62001B0462 /* HomeViewController.xib */; };
 		C28A10F4EACDCD0FDD145BE5 /* Pods_MintynApp_MintynAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F39D59EB60D9824D2535F3 /* Pods_MintynApp_MintynAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,8 @@
 		B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		B4FF7C23273AD595001B0462 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B4FF7C25273AD679001B0462 /* Gradient Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradient Button.swift"; sourceTree = "<group>"; };
+		B4FF7C3E273B1C62001B0462 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B4FF7C3F273B1C62001B0462 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		DF764332DEE76C58DABA06E2 /* Pods-MintynApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynApp.release.xcconfig"; path = "Target Support Files/Pods-MintynApp/Pods-MintynApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +144,7 @@
 				B4FF7C18273AD297001B0462 /* Coordinators */,
 				B4FF7C13273ACD37001B0462 /* LaunchScreen */,
 				B4FF7C15273AD1E1001B0462 /* Login */,
+				B4FF7C3B273B1C36001B0462 /* Home */,
 				B4FF7C20273AD519001B0462 /* Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
@@ -216,6 +221,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		B4FF7C3B273B1C36001B0462 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C3E273B1C62001B0462 /* HomeViewController.swift */,
+				B4FF7C3F273B1C62001B0462 /* HomeViewController.xib */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E90F8E7F0E369BF3C3B0AE28 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -226,7 +240,6 @@
 				9F17F9C78AB831E1AEEF667E /* Pods-MintynAppTests.debug.xcconfig */,
 				5191A746F2C1F89E5481D99E /* Pods-MintynAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,7 +340,7 @@
 			);
 			mainGroup = B4FF7BD5273ACCFD001B0462;
 			packageReferences = (
-				B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */,
+				B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = B4FF7BDF273ACCFD001B0462 /* Products */;
 			projectDirPath = "";
@@ -348,6 +361,7 @@
 				B4FF7BEE273ACCFF001B0462 /* LaunchScreen.storyboard in Resources */,
 				B4FF7BEB273ACCFF001B0462 /* Assets.xcassets in Resources */,
 				B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */,
+				B4FF7C41273B1C62001B0462 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,6 +492,7 @@
 				B4FF7C24273AD595001B0462 /* UIView+Extension.swift in Sources */,
 				B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */,
 				B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */,
+				B4FF7C40273B1C62001B0462 /* HomeViewController.swift in Sources */,
 				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,
 				B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */,
@@ -580,7 +595,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -635,7 +650,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -670,7 +685,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -699,7 +714,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -845,7 +860,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */ = {
+		B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -858,7 +873,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		B4FF7C28273AE2F9001B0462 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */;
+			package = B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
