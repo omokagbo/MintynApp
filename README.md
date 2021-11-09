@@ -1,0 +1,2 @@
+# MintynApp
+Mint Bank App.
