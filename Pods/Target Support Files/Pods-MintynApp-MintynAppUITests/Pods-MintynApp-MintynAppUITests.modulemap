@@ -1,0 +1,6 @@
+framework module Pods_MintynApp_MintynAppUITests {
+  umbrella header "Pods-MintynApp-MintynAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
