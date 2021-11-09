@@ -21,11 +21,18 @@ class AppCoordinator {
     
     private func presentLogin() {
         let loginVC = LoginViewController()
+        
+        loginVC.loginBtnTapped = { [weak self] in
+            self?.presentHome()
+        }
+        
         navigationController.pushViewController(loginVC, animated: true)
     }
     
     private func presentHome() {
-        
+        let homeVC = HomeViewController()
+        homeVC.modalPresentationStyle = .fullScreen
+        navigationController.present(homeVC, animated: true)
     }
     
 }
