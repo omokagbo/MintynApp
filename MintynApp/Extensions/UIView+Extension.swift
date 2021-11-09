@@ -13,13 +13,4 @@ extension UIView {
         return String(describing: self)
     }
     
-    @IBInspectable
-    var cornerRadius: CGFloat {
-        get {
-            self.layer.cornerRadius
-        } set {
-            self.cornerRadius = newValue
-        }
-    }
-    
 }
