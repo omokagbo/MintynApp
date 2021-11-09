@@ -99,13 +99,11 @@
 		B4FF7BE0273ACCFD001B0462 /* MintynApp */ = {
 			isa = PBXGroup;
 			children = (
-				B4FF7BE1273ACCFD001B0462 /* AppDelegate.swift */,
-				B4FF7BE3273ACCFD001B0462 /* SceneDelegate.swift */,
+				B4FF7C12273ACD23001B0462 /* App+Scene Delegate */,
 				B4FF7BE5273ACCFD001B0462 /* ViewController.swift */,
 				B4FF7BE7273ACCFD001B0462 /* Main.storyboard */,
-				B4FF7BEA273ACCFF001B0462 /* Assets.xcassets */,
-				B4FF7BEC273ACCFF001B0462 /* LaunchScreen.storyboard */,
-				B4FF7BEF273ACCFF001B0462 /* Info.plist */,
+				B4FF7C13273ACD37001B0462 /* LaunchScreen */,
+				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
 			path = MintynApp;
 			sourceTree = "<group>";
@@ -125,6 +123,32 @@
 				B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */,
 			);
 			path = MintynAppUITests;
+			sourceTree = "<group>";
+		};
+		B4FF7C12273ACD23001B0462 /* App+Scene Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7BE1273ACCFD001B0462 /* AppDelegate.swift */,
+				B4FF7BE3273ACCFD001B0462 /* SceneDelegate.swift */,
+			);
+			path = "App+Scene Delegate";
+			sourceTree = "<group>";
+		};
+		B4FF7C13273ACD37001B0462 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7BEC273ACCFF001B0462 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		B4FF7C14273ACDD3001B0462 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7BEA273ACCFF001B0462 /* Assets.xcassets */,
+				B4FF7BEF273ACCFF001B0462 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,7 +391,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +446,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -441,7 +465,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8VVW6QSAS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MintynApp/Info.plist;
+				INFOPLIST_FILE = MintynApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,7 +493,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8VVW6QSAS9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MintynApp/Info.plist;
+				INFOPLIST_FILE = MintynApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

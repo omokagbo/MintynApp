@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MintynApp
 //
-//  Created by Decagon on 09/11/2021.
+//  Created by Emmanuel Omokagbo on 09/11/2021.
 //
 
 import UIKit
