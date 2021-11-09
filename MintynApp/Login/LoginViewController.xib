@@ -1,22 +1,109 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="MintynApp" customModuleProvider="target">
             <connections>
+                <outlet property="cacBusiness" destination="nzc-ss-Mxy" id="IE9-PC-5Y5"/>
+                <outlet property="contactSupport" destination="tM2-Zl-xBf" id="yX4-ct-gVE"/>
+                <outlet property="loginView" destination="FbY-JN-rZs" id="Zx9-FU-7gZ"/>
+                <outlet property="mintInsurance" destination="7q9-Mt-ttw" id="MVQ-zA-AvW"/>
+                <outlet property="openAccount" destination="JMd-aU-QtQ" id="M7X-re-4X2"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="7Xy-uA-V9W">
+                    <rect key="frame" x="20" y="64" width="374" height="200"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="shQ-m8-HNy">
+                            <rect key="frame" x="0.0" y="0.0" width="374" height="95"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mintyn Insurance" translatesAutoresizingMaskIntoConstraints="NO" id="7q9-Mt-ttw">
+                                    <rect key="frame" x="0.0" y="0.0" width="182" height="95"/>
+                                </imageView>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mint Open Account" translatesAutoresizingMaskIntoConstraints="NO" id="JMd-aU-QtQ">
+                                    <rect key="frame" x="192" y="0.0" width="182" height="95"/>
+                                </imageView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="mjm-Q0-Lhi">
+                            <rect key="frame" x="0.0" y="105" width="374" height="95"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mint CAC" translatesAutoresizingMaskIntoConstraints="NO" id="nzc-ss-Mxy">
+                                    <rect key="frame" x="0.0" y="0.0" width="182" height="95"/>
+                                </imageView>
+                                <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mint Support" translatesAutoresizingMaskIntoConstraints="NO" id="tM2-Zl-xBf">
+                                    <rect key="frame" x="192" y="0.0" width="182" height="95"/>
+                                </imageView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="200" id="lYH-EV-lXH"/>
+                    </constraints>
+                </stackView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FbY-JN-rZs">
+                    <rect key="frame" x="0.0" y="364" width="414" height="532"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MtC-B7-C6r">
+                            <rect key="frame" x="20" y="30" width="114.5" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uKw-nK-lfD">
+                            <rect key="frame" x="20" y="60.5" width="374" height="40"/>
+                            <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="QAu-KR-7tV"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="secondarySystemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="uKw-nK-lfD" secondAttribute="trailing" constant="20" id="5LC-UZ-9vx"/>
+                        <constraint firstItem="MtC-B7-C6r" firstAttribute="top" secondItem="FbY-JN-rZs" secondAttribute="top" constant="30" id="BlA-rf-uof"/>
+                        <constraint firstItem="MtC-B7-C6r" firstAttribute="leading" secondItem="FbY-JN-rZs" secondAttribute="leading" constant="20" id="Hwx-hz-YWH"/>
+                        <constraint firstItem="uKw-nK-lfD" firstAttribute="top" secondItem="MtC-B7-C6r" secondAttribute="bottom" constant="10" id="aJm-QX-Tio"/>
+                        <constraint firstItem="uKw-nK-lfD" firstAttribute="leading" secondItem="MtC-B7-C6r" secondAttribute="leading" id="cLg-VZ-JIb"/>
+                    </constraints>
+                </view>
+            </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="FbY-JN-rZs" secondAttribute="bottom" id="5wG-X4-JzG"/>
+                <constraint firstItem="FbY-JN-rZs" firstAttribute="top" secondItem="7Xy-uA-V9W" secondAttribute="bottom" constant="100" id="A19-2R-ycN"/>
+                <constraint firstItem="FbY-JN-rZs" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="N99-Qk-F3D"/>
+                <constraint firstItem="7Xy-uA-V9W" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Ubg-oP-3lQ"/>
+                <constraint firstItem="7Xy-uA-V9W" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="VcN-ds-CtV"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7Xy-uA-V9W" secondAttribute="trailing" constant="20" id="ncj-Qu-9os"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="FbY-JN-rZs" secondAttribute="trailing" id="wdQ-HM-8FX"/>
+            </constraints>
+            <point key="canvasLocation" x="137.68115942028987" y="109.82142857142857"/>
         </view>
     </objects>
+    <resources>
+        <image name="Mint CAC" width="368" height="178"/>
+        <image name="Mint Open Account" width="382" height="180"/>
+        <image name="Mint Support" width="366" height="175"/>
+        <image name="Mintyn Insurance" width="369" height="170"/>
+        <systemColor name="secondarySystemBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>
