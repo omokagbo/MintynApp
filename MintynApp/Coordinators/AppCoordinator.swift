@@ -24,4 +24,8 @@ class AppCoordinator {
         navigationController.pushViewController(loginVC, animated: true)
     }
     
+    private func presentHome() {
+        
+    }
+    
 }

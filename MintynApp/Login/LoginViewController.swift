@@ -27,6 +27,8 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var passwordField: UITextField!
     
+    @IBOutlet weak var rememberBtn: UIButton!
+    
     // MARK: - Properties
     
     private let passwordBtn: UIButton = {
@@ -38,6 +40,14 @@ class LoginViewController: UIViewController {
     }()
     
     private var passwordIsHidden = true
+    
+    private var rememberMe = false
+    
+    var formattedPhoneNumber = ""
+    
+    var listController: FPNCountryListViewController = FPNCountryListViewController(style: .grouped)
+    
+    var loginBtnTapped: (() -> Void)?
     
     // MARK: - ViewController Life Cycle
     
@@ -51,12 +61,34 @@ class LoginViewController: UIViewController {
         passwordField.rightViewMode = .always
     }
     
+    // MARK: - Actions
+    
+    @IBAction func didTapRememberMe(_ sender: UIButton) {
+        rememberMe = !rememberMe
+        rememberBtn.setImage(UIImage(systemName: rememberMe ? "checkmark.square" : "square"), for: .normal)
+    }
+    
+    @IBAction func didTapLoginButton(_ sender: UIButton) {
+        guard let phone = phoneNumberField.text, !phone.isEmpty, let password = passwordField.text, !password.isEmpty else {
+            return
+        }
+        loginBtnTapped?()
+    }
+    
     // MARK: - Methods
     
     private func customisePhoneNumberField() {
         phoneNumberField.delegate = self
         phoneNumberField.setFlag(key: .NG)
         phoneNumberField.placeholder = "802 123 4567"
+        
+        phoneNumberField.displayMode = .list
+        
+        listController.setup(repository: phoneNumberField.countryRepository)
+        
+        listController.didSelect = { [weak self] country in
+            self?.phoneNumberField.setFlag(countryCode: country.code)
+        }
     }
     
     private func createTapGesture(action: Selector?, image: UIImageView) {
@@ -104,15 +136,22 @@ class LoginViewController: UIViewController {
 extension LoginViewController: FPNTextFieldDelegate {
     
     func fpnDidSelectCountry(name: String, dialCode: String, code: String) {
-        
+        print(name, dialCode, code)
     }
     
     func fpnDidValidatePhoneNumber(textField: FPNTextField, isValid: Bool) {
-        
+        if isValid {
+            self.formattedPhoneNumber = "\(textField.getFormattedPhoneNumber(format: .E164) ?? "2348000000000")"
+        }
     }
     
     func fpnDisplayCountryList() {
+        let navigationController = UINavigationController(rootViewController: listController)
         
+        listController.title = "Countries"
+        
+        self.present(navigationController, animated: true)
     }
+    
     
 }
