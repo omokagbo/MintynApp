@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Mint LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="evr-VS-8cQ">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="The Mint LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="evr-VS-8cQ">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                             </imageView>
                         </subviews>
@@ -36,6 +36,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Mint LaunchScreen" width="828" height="1792"/>
+        <image name="The Mint LaunchScreen" width="724" height="1404"/>
     </resources>
 </document>

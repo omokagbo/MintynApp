@@ -15,4 +15,14 @@ extension UIViewController {
         self.present(alert, animated: true)
     }
     
+    public func setupNavbar() {
+        self.navigationController?.navigationBar.tintColor = .black
+//        self.navigationController?.navigationBar.topItem?.title = " "
+//        self.navigationController?.navigationBar.isTranslucent = true
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .black
+        self.navigationController?.navigationBar.standardAppearance = appearance
+    }
+    
 }

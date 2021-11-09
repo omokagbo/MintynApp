@@ -226,7 +226,6 @@
 				9F17F9C78AB831E1AEEF667E /* Pods-MintynAppTests.debug.xcconfig */,
 				5191A746F2C1F89E5481D99E /* Pods-MintynAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -327,7 +326,7 @@
 			);
 			mainGroup = B4FF7BD5273ACCFD001B0462;
 			packageReferences = (
-				B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */,
+				B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 			);
 			productRefGroup = B4FF7BDF273ACCFD001B0462 /* Products */;
 			projectDirPath = "";
@@ -670,7 +669,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -699,7 +698,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -845,7 +844,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */ = {
+		B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -858,7 +857,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		B4FF7C28273AE2F9001B0462 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager.git" */;
+			package = B4FF7C27273AE2F9001B0462 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
