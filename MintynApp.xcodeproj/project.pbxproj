@@ -3,19 +3,23 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 53;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BE1273ACCFD001B0462 /* AppDelegate.swift */; };
 		B4FF7BE4273ACCFD001B0462 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BE3273ACCFD001B0462 /* SceneDelegate.swift */; };
-		B4FF7BE6273ACCFD001B0462 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BE5273ACCFD001B0462 /* ViewController.swift */; };
-		B4FF7BE9273ACCFD001B0462 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7BE7273ACCFD001B0462 /* Main.storyboard */; };
 		B4FF7BEB273ACCFF001B0462 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7BEA273ACCFF001B0462 /* Assets.xcassets */; };
 		B4FF7BEE273ACCFF001B0462 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7BEC273ACCFF001B0462 /* LaunchScreen.storyboard */; };
 		B4FF7BF9273ACD00001B0462 /* MintynAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BF8273ACD00001B0462 /* MintynAppTests.swift */; };
 		B4FF7C03273ACD00001B0462 /* MintynAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */; };
 		B4FF7C05273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */; };
+		B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */; };
+		B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */; };
+		B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */; };
+		B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */; };
+		B4FF7C24273AD595001B0462 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C23273AD595001B0462 /* UIView+Extension.swift */; };
+		B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C25273AD679001B0462 /* Gradient Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		B4FF7BDE273ACCFD001B0462 /* MintynApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MintynApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF7BE1273ACCFD001B0462 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4FF7BE3273ACCFD001B0462 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B4FF7BE5273ACCFD001B0462 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B4FF7BE8273ACCFD001B0462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B4FF7BEA273ACCFF001B0462 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4FF7BED273ACCFF001B0462 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4FF7BEF273ACCFF001B0462 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		B4FF7BFE273ACD00001B0462 /* MintynAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintynAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITests.swift; sourceTree = "<group>"; };
 		B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		B4FF7C23273AD595001B0462 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		B4FF7C25273AD679001B0462 /* Gradient Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gradient Button.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				B4FF7C12273ACD23001B0462 /* App+Scene Delegate */,
-				B4FF7BE5273ACCFD001B0462 /* ViewController.swift */,
-				B4FF7BE7273ACCFD001B0462 /* Main.storyboard */,
+				B4FF7C18273AD297001B0462 /* Coordinators */,
 				B4FF7C13273ACD37001B0462 /* LaunchScreen */,
+				B4FF7C15273AD1E1001B0462 /* Login */,
+				B4FF7C20273AD519001B0462 /* Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
 			path = MintynApp;
@@ -149,6 +158,33 @@
 				B4FF7BEF273ACCFF001B0462 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		B4FF7C15273AD1E1001B0462 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */,
+				B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		B4FF7C18273AD297001B0462 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */,
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		B4FF7C20273AD519001B0462 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */,
+				B4FF7C23273AD595001B0462 /* UIView+Extension.swift */,
+				B4FF7C25273AD679001B0462 /* Gradient Button.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,7 +267,7 @@
 				};
 			};
 			buildConfigurationList = B4FF7BD9273ACCFD001B0462 /* Build configuration list for PBXProject "MintynApp" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -257,7 +293,7 @@
 			files = (
 				B4FF7BEE273ACCFF001B0462 /* LaunchScreen.storyboard in Resources */,
 				B4FF7BEB273ACCFF001B0462 /* Assets.xcassets in Resources */,
-				B4FF7BE9273ACCFD001B0462 /* Main.storyboard in Resources */,
+				B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +318,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4FF7BE6273ACCFD001B0462 /* ViewController.swift in Sources */,
+				B4FF7C24273AD595001B0462 /* UIView+Extension.swift in Sources */,
+				B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */,
+				B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */,
+				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,
+				B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */,
 				B4FF7BE4273ACCFD001B0462 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -321,14 +361,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B4FF7BE7273ACCFD001B0462 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B4FF7BE8273ACCFD001B0462 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B4FF7BEC273ACCFF001B0462 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -468,7 +500,7 @@
 				INFOPLIST_FILE = MintynApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +528,7 @@
 				INFOPLIST_FILE = MintynApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
