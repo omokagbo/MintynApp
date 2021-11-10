@@ -9,12 +9,16 @@ import UIKit
 
 class DashboardTabBarController: UITabBarController, UITabBarControllerDelegate {
     
+    var something = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        self.navigationItem.hidesBackButton = true
         delegate = self
         setupTabBar()
         setupNavbar()
+        print(something)
     }
    
     fileprivate func setupTabBar() {

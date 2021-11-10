@@ -16,7 +16,6 @@
 		B4FF7BF9273ACD00001B0462 /* MintynAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BF8273ACD00001B0462 /* MintynAppTests.swift */; };
 		B4FF7C03273ACD00001B0462 /* MintynAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */; };
 		B4FF7C05273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */; };
-		B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */; };
 		B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */; };
 		B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */; };
 		B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */; };
@@ -38,6 +37,11 @@
 		B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C69273BE3C2001B0462 /* Constants.swift */; };
 		B4FF7C6D273BF99A001B0462 /* SettingsOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C6C273BF999001B0462 /* SettingsOptions.swift */; };
 		B4FF7C70273BFA28001B0462 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */; };
+		B4FF7C89273C4E58001B0462 /* SystemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C87273C4E58001B0462 /* SystemViewController.swift */; };
+		B4FF7C8A273C4E58001B0462 /* SystemViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C88273C4E58001B0462 /* SystemViewController.xib */; };
+		B4FF7C8D273C4E76001B0462 /* LegalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C8B273C4E76001B0462 /* LegalViewController.swift */; };
+		B4FF7C8E273C4E76001B0462 /* LegalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C8C273C4E76001B0462 /* LegalViewController.xib */; };
+		B4FF7C90273C819F001B0462 /* LegalDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C8F273C819F001B0462 /* LegalDetailsViewController.swift */; };
 		C28A10F4EACDCD0FDD145BE5 /* Pods_MintynApp_MintynAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F39D59EB60D9824D2535F3 /* Pods_MintynApp_MintynAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -78,7 +82,6 @@
 		B4FF7BFE273ACD00001B0462 /* MintynAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintynAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITests.swift; sourceTree = "<group>"; };
 		B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -99,6 +102,11 @@
 		B4FF7C69273BE3C2001B0462 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		B4FF7C6C273BF999001B0462 /* SettingsOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptions.swift; sourceTree = "<group>"; };
 		B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		B4FF7C87273C4E58001B0462 /* SystemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemViewController.swift; sourceTree = "<group>"; };
+		B4FF7C88273C4E58001B0462 /* SystemViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SystemViewController.xib; sourceTree = "<group>"; };
+		B4FF7C8B273C4E76001B0462 /* LegalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalViewController.swift; sourceTree = "<group>"; };
+		B4FF7C8C273C4E76001B0462 /* LegalViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LegalViewController.xib; sourceTree = "<group>"; };
+		B4FF7C8F273C819F001B0462 /* LegalDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalDetailsViewController.swift; sourceTree = "<group>"; };
 		DF764332DEE76C58DABA06E2 /* Pods-MintynApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynApp.release.xcconfig"; path = "Target Support Files/Pods-MintynApp/Pods-MintynApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,7 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				B4FF7C12273ACD23001B0462 /* App+Scene Delegate */,
-				B4FF7C18273AD297001B0462 /* Coordinators */,
+				B4FF7C6B273BF981001B0462 /* Models */,
+				B4FF7C6E273BFA15001B0462 /* ViewModels */,
 				B4FF7C13273ACD37001B0462 /* LaunchScreen */,
 				B4FF7C15273AD1E1001B0462 /* Login */,
 				B4FF7C47273B2830001B0462 /* Dashboard */,
@@ -176,8 +185,8 @@
 				B4FF7C43273B2121001B0462 /* Cards */,
 				B4FF7C44273B212E001B0462 /* Settings */,
 				B4FF7C45273B2138001B0462 /* Support */,
-				B4FF7C6B273BF981001B0462 /* Models */,
-				B4FF7C6E273BFA15001B0462 /* ViewModels */,
+				B4FF7C84273C4E13001B0462 /* Legal */,
+				B4FF7C86273C4E26001B0462 /* System */,
 				B4FF7C20273AD519001B0462 /* Helpers and Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
@@ -234,14 +243,6 @@
 				B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		B4FF7C18273AD297001B0462 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */,
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		B4FF7C20273AD519001B0462 /* Helpers and Extensions */ = {
@@ -323,6 +324,25 @@
 				B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B4FF7C84273C4E13001B0462 /* Legal */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C8B273C4E76001B0462 /* LegalViewController.swift */,
+				B4FF7C8F273C819F001B0462 /* LegalDetailsViewController.swift */,
+				B4FF7C8C273C4E76001B0462 /* LegalViewController.xib */,
+			);
+			path = Legal;
+			sourceTree = "<group>";
+		};
+		B4FF7C86273C4E26001B0462 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C87273C4E58001B0462 /* SystemViewController.swift */,
+				B4FF7C88273C4E58001B0462 /* SystemViewController.xib */,
+			);
+			path = System;
 			sourceTree = "<group>";
 		};
 		E90F8E7F0E369BF3C3B0AE28 /* Pods */ = {
@@ -456,6 +476,8 @@
 				B4FF7BEE273ACCFF001B0462 /* LaunchScreen.storyboard in Resources */,
 				B4FF7BEB273ACCFF001B0462 /* Assets.xcassets in Resources */,
 				B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */,
+				B4FF7C8A273C4E58001B0462 /* SystemViewController.xib in Resources */,
+				B4FF7C8E273C4E76001B0462 /* LegalViewController.xib in Resources */,
 				B4FF7C58273B28F3001B0462 /* CardsViewController.xib in Resources */,
 				B4FF7C5C273B2916001B0462 /* SettingsViewController.xib in Resources */,
 				B4FF7C60273B2923001B0462 /* SupportViewController.xib in Resources */,
@@ -592,13 +614,15 @@
 				B4FF7C4A273B284D001B0462 /* DashboardTabBarController.swift in Sources */,
 				B4FF7C5F273B2923001B0462 /* SupportViewController.swift in Sources */,
 				B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */,
-				B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */,
 				B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */,
+				B4FF7C89273C4E58001B0462 /* SystemViewController.swift in Sources */,
 				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,
 				B4FF7C70273BFA28001B0462 /* SettingsViewModel.swift in Sources */,
 				B4FF7C4F273B28C7001B0462 /* FinancesViewController.swift in Sources */,
+				B4FF7C8D273C4E76001B0462 /* LegalViewController.swift in Sources */,
 				B4FF7C57273B28F3001B0462 /* CardsViewController.swift in Sources */,
+				B4FF7C90273C819F001B0462 /* LegalDetailsViewController.swift in Sources */,
 				B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */,
 				B4FF7C68273BDD75001B0462 /* ImageCollectionViewCell.swift in Sources */,
 				B4FF7BE4273ACCFD001B0462 /* SceneDelegate.swift in Sources */,
