@@ -106,6 +106,9 @@
                                     <buttonConfiguration key="configuration" style="plain" title="Copy">
                                         <fontDescription key="titleFontDescription" type="system" pointSize="9"/>
                                     </buttonConfiguration>
+                                    <connections>
+                                        <action selector="didTapCopy:" destination="-1" eventType="touchUpInside" id="oiM-3f-eVm"/>
+                                    </connections>
                                 </button>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bvh-GD-SeZ">
                                     <rect key="frame" x="0.0" y="90" width="414" height="100"/>
@@ -135,6 +138,9 @@
                                             <buttonConfiguration key="configuration" style="plain" title="FUND ACCOUNT">
                                                 <fontDescription key="titleFontDescription" type="system" pointSize="10"/>
                                             </buttonConfiguration>
+                                            <connections>
+                                                <action selector="fundAccount:" destination="-1" eventType="touchUpInside" id="CDo-pa-8gX"/>
+                                            </connections>
                                         </button>
                                     </subviews>
                                     <color key="backgroundColor" red="0.58006578679999998" green="0.42972490190000001" blue="0.16816273330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -465,6 +471,9 @@
                     <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <state key="normal" title="Button"/>
                     <buttonConfiguration key="configuration" style="plain" image="plus" catalog="system"/>
+                    <connections>
+                        <action selector="didTapNewAccount:" destination="-1" eventType="touchUpInside" id="Yo3-iS-Npx"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>

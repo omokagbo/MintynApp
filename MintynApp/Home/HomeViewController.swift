@@ -51,6 +51,34 @@ class HomeViewController: UIViewController {
         navigationController?.navigationBar.isTranslucent = false
     }
     
+// MARK: - Actions
+    
+    @IBAction func didTapAccountDetails(_ sender: UIButton) {
+        self.showDefaultAlert(title: "Account", message: "Your account number is: 1234567890")
+    }
+    
+    @IBAction func didHideBalance(_ sender: UISegmentedControl) {
+        if sender.selectedSegmentIndex == 1 {
+            availableBalance.text = Constants.hiddenBalance
+            ledgerBalance.text = Constants.hiddenBalance
+        } else {
+            availableBalance.text = Constants.defaultBalance
+            ledgerBalance.text = Constants.defaultBalance
+        }
+    }
+    
+    @IBAction func didTapCopy(_ sender: UIButton) {
+        self.showDefaultAlert(title: "Copy", message: "Account number copied to clipboard")
+    }
+    
+    @IBAction func didTapNewAccount(_ sender: UIButton) {
+        self.showDefaultAlert(title: "New", message: "Creating a new account...")
+    }
+    
+    @IBAction func fundAccount(_ sender: UIButton) {
+        self.showDefaultAlert(title: "Fund Account", message: "How do you want to fund your account?")
+    }
+    
     // MARK: - Methods
     
     private func customiseViews() {
@@ -70,25 +98,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc private func didTapNotifications() {
-        self.showDefaultAlert(title: "Notifications", message: "Coming Soon")
-    }
-    
-    @objc private func tapNothing() {
-        
-    }
-    
-    @IBAction func didTapAccountDetails(_ sender: UIButton) {
-        print("account details tapped")
-    }
-    
-    @IBAction func didHideBalance(_ sender: UISegmentedControl) {
-        if sender.selectedSegmentIndex == 1 {
-            availableBalance.text = Constants.hiddenBalance
-            ledgerBalance.text = Constants.hiddenBalance
-        } else {
-            availableBalance.text = Constants.defaultBalance
-            ledgerBalance.text = Constants.defaultBalance
-        }
+        self.showDefaultAlert(title: "Notifications", message: "You have no new notification")
     }
     
 }
