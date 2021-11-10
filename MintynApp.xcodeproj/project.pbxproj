@@ -34,6 +34,8 @@
 		B4FF7C60273B2923001B0462 /* SupportViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C5E273B2923001B0462 /* SupportViewController.xib */; };
 		B4FF7C65273BCF8A001B0462 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C63273BCF8A001B0462 /* HomeViewController.swift */; };
 		B4FF7C66273BCF8A001B0462 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C64273BCF8A001B0462 /* HomeViewController.xib */; };
+		B4FF7C68273BDD75001B0462 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C67273BDD75001B0462 /* ImageCollectionViewCell.swift */; };
+		B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C69273BE3C2001B0462 /* Constants.swift */; };
 		C28A10F4EACDCD0FDD145BE5 /* Pods_MintynApp_MintynAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F39D59EB60D9824D2535F3 /* Pods_MintynApp_MintynAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -91,6 +93,8 @@
 		B4FF7C5E273B2923001B0462 /* SupportViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportViewController.xib; sourceTree = "<group>"; };
 		B4FF7C63273BCF8A001B0462 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B4FF7C64273BCF8A001B0462 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		B4FF7C67273BDD75001B0462 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4FF7C69273BE3C2001B0462 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DF764332DEE76C58DABA06E2 /* Pods-MintynApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynApp.release.xcconfig"; path = "Target Support Files/Pods-MintynApp/Pods-MintynApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,7 +172,7 @@
 				B4FF7C43273B2121001B0462 /* Cards */,
 				B4FF7C44273B212E001B0462 /* Settings */,
 				B4FF7C45273B2138001B0462 /* Support */,
-				B4FF7C20273AD519001B0462 /* Extensions */,
+				B4FF7C20273AD519001B0462 /* Helpers and Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
 			path = MintynApp;
@@ -234,20 +238,22 @@
 			path = Coordinators;
 			sourceTree = "<group>";
 		};
-		B4FF7C20273AD519001B0462 /* Extensions */ = {
+		B4FF7C20273AD519001B0462 /* Helpers and Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */,
 				B4FF7C23273AD595001B0462 /* UIView+Extension.swift */,
 				B4FF7C25273AD679001B0462 /* Gradient Button.swift */,
+				B4FF7C69273BE3C2001B0462 /* Constants.swift */,
 			);
-			path = Extensions;
+			path = "Helpers and Extensions";
 			sourceTree = "<group>";
 		};
 		B4FF7C3B273B1C36001B0462 /* Home */ = {
 			isa = PBXGroup;
 			children = (
 				B4FF7C63273BCF8A001B0462 /* HomeViewController.swift */,
+				B4FF7C67273BDD75001B0462 /* ImageCollectionViewCell.swift */,
 				B4FF7C64273BCF8A001B0462 /* HomeViewController.xib */,
 			);
 			path = Home;
@@ -565,11 +571,13 @@
 				B4FF7C5F273B2923001B0462 /* SupportViewController.swift in Sources */,
 				B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */,
 				B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */,
+				B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */,
 				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,
 				B4FF7C4F273B28C7001B0462 /* FinancesViewController.swift in Sources */,
 				B4FF7C57273B28F3001B0462 /* CardsViewController.swift in Sources */,
 				B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */,
+				B4FF7C68273BDD75001B0462 /* ImageCollectionViewCell.swift in Sources */,
 				B4FF7BE4273ACCFD001B0462 /* SceneDelegate.swift in Sources */,
 				B4FF7C65273BCF8A001B0462 /* HomeViewController.swift in Sources */,
 				B4FF7C5B273B2916001B0462 /* SettingsViewController.swift in Sources */,

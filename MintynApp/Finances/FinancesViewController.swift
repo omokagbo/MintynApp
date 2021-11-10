@@ -12,7 +12,7 @@ class FinancesViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavbar()
-        title = "Finances"
+        navigationItem.title = "Finances"
     }
     
 }

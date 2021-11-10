@@ -11,6 +11,7 @@ class SupportViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        navigationItem.title = "Inbox"
         setupNavbar()
     }
     

@@ -12,7 +12,7 @@ class CardsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupNavbar()
-        title = "Cards"
+        navigationItem.title = "Cards"
     }
 
 }
