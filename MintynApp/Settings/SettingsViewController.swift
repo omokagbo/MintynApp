@@ -24,6 +24,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "Settings"
+        navigationController?.navigationBar.tintColor = .label
         setupNavbar()
         view.addSubview(tableView)
         setupTableView()
@@ -75,9 +76,11 @@ extension SettingsViewController: UITableViewDelegate {
         let model = settingsViewModel.settingsOptions[indexPath.row]
         
         if model.title == "Legal" {
-            
+            let legalVC = LegalViewController()
+            self.navigationController?.pushViewController(legalVC, animated: true)
         } else if model.title == "System" {
-            
+            let systemVC = SystemViewController()
+            self.navigationController?.pushViewController(systemVC, animated: true)
         } else if model.title == "Logout" {
             self.logoutUser()
         } else {

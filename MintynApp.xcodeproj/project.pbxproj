@@ -327,8 +327,8 @@
 		B4FF7C84273C4E13001B0462 /* Legal */ = {
 			isa = PBXGroup;
 			children = (
-				B4FF7C87273C4E58001B0462 /* SystemViewController.swift */,
-				B4FF7C88273C4E58001B0462 /* SystemViewController.xib */,
+				B4FF7C8B273C4E76001B0462 /* LegalViewController.swift */,
+				B4FF7C8C273C4E76001B0462 /* LegalViewController.xib */,
 			);
 			path = Legal;
 			sourceTree = "<group>";
@@ -336,8 +336,8 @@
 		B4FF7C86273C4E26001B0462 /* System */ = {
 			isa = PBXGroup;
 			children = (
-				B4FF7C8B273C4E76001B0462 /* LegalViewController.swift */,
-				B4FF7C8C273C4E76001B0462 /* LegalViewController.xib */,
+				B4FF7C87273C4E58001B0462 /* SystemViewController.swift */,
+				B4FF7C88273C4E58001B0462 /* SystemViewController.xib */,
 			);
 			path = System;
 			sourceTree = "<group>";
