@@ -36,6 +36,8 @@
 		B4FF7C66273BCF8A001B0462 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C64273BCF8A001B0462 /* HomeViewController.xib */; };
 		B4FF7C68273BDD75001B0462 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C67273BDD75001B0462 /* ImageCollectionViewCell.swift */; };
 		B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C69273BE3C2001B0462 /* Constants.swift */; };
+		B4FF7C6D273BF99A001B0462 /* SettingsOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C6C273BF999001B0462 /* SettingsOptions.swift */; };
+		B4FF7C70273BFA28001B0462 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */; };
 		C28A10F4EACDCD0FDD145BE5 /* Pods_MintynApp_MintynAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92F39D59EB60D9824D2535F3 /* Pods_MintynApp_MintynAppUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -95,6 +97,8 @@
 		B4FF7C64273BCF8A001B0462 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B4FF7C67273BDD75001B0462 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		B4FF7C69273BE3C2001B0462 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B4FF7C6C273BF999001B0462 /* SettingsOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptions.swift; sourceTree = "<group>"; };
+		B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		DF764332DEE76C58DABA06E2 /* Pods-MintynApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MintynApp.release.xcconfig"; path = "Target Support Files/Pods-MintynApp/Pods-MintynApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +176,8 @@
 				B4FF7C43273B2121001B0462 /* Cards */,
 				B4FF7C44273B212E001B0462 /* Settings */,
 				B4FF7C45273B2138001B0462 /* Support */,
+				B4FF7C6B273BF981001B0462 /* Models */,
+				B4FF7C6E273BFA15001B0462 /* ViewModels */,
 				B4FF7C20273AD519001B0462 /* Helpers and Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
@@ -301,6 +307,22 @@
 				B4FF7C49273B284D001B0462 /* DashboardTabBarController.swift */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		B4FF7C6B273BF981001B0462 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C6C273BF999001B0462 /* SettingsOptions.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B4FF7C6E273BFA15001B0462 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B4FF7C6F273BFA28001B0462 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 		E90F8E7F0E369BF3C3B0AE28 /* Pods */ = {
@@ -574,11 +596,13 @@
 				B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */,
 				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,
+				B4FF7C70273BFA28001B0462 /* SettingsViewModel.swift in Sources */,
 				B4FF7C4F273B28C7001B0462 /* FinancesViewController.swift in Sources */,
 				B4FF7C57273B28F3001B0462 /* CardsViewController.swift in Sources */,
 				B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */,
 				B4FF7C68273BDD75001B0462 /* ImageCollectionViewCell.swift in Sources */,
 				B4FF7BE4273ACCFD001B0462 /* SceneDelegate.swift in Sources */,
+				B4FF7C6D273BF99A001B0462 /* SettingsOptions.swift in Sources */,
 				B4FF7C65273BCF8A001B0462 /* HomeViewController.swift in Sources */,
 				B4FF7C5B273B2916001B0462 /* SettingsViewController.swift in Sources */,
 			);
