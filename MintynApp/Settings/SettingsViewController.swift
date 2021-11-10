@@ -38,6 +38,18 @@ class SettingsViewController: UIViewController {
         tableView.delegate = self
     }
     
+    private func logoutUser() {
+        let alert = UIAlertController(title: "Logout", message: "Do you really want to logout?", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "OK", style: .destructive, handler: { [weak self] _ in
+            guard let self = self else { return }
+            let loginVC = LoginViewController()
+            loginVC.modalPresentationStyle = .fullScreen
+            self.present(loginVC, animated: true)
+        }))
+        alert.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        self.present(alert, animated: true)
+    }
+    
 }
 
 extension SettingsViewController: UITableViewDataSource {
@@ -49,7 +61,7 @@ extension SettingsViewController: UITableViewDataSource {
         let model = settingsViewModel.settingsOptions[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         cell.textLabel?.text = model.title
-        cell.imageView?.image = UIImage(systemName: model.image ?? "house")
+        cell.imageView?.image = UIImage(systemName: model.image)
         cell.imageView?.tintColor = .systemGray2
         cell.accessoryType = .disclosureIndicator
         return cell
@@ -59,5 +71,17 @@ extension SettingsViewController: UITableViewDataSource {
 extension SettingsViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        
+        let model = settingsViewModel.settingsOptions[indexPath.row]
+        
+        if model.title == "Legal" {
+            
+        } else if model.title == "System" {
+            
+        } else if model.title == "Logout" {
+            self.logoutUser()
+        } else {
+            self.showDefaultAlert(title: "\(model.title)", message: "Coming soon")
+        }
     }
 }

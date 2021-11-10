@@ -43,7 +43,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.leftBarButtonItem?.isEnabled = false
+        self.navigationItem.hidesBackButton = true
         navigationController?.navigationBar.tintColor = .systemGray2
         setupNavigationItems()
         customiseViews()

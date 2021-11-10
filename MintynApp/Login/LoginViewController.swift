@@ -47,13 +47,12 @@ class LoginViewController: UIViewController {
     
     var listController: FPNCountryListViewController = FPNCountryListViewController(style: .grouped)
     
-    var loginBtnTapped: (() -> Void)?
-    
     // MARK: - ViewController Life Cycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
         loginView.layer.cornerRadius = 30
+        self.navigationItem.hidesBackButton = true
         setupGesturesForImages()
         setupNavbar()
         customisePhoneNumberField()
@@ -69,10 +68,12 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func didTapLoginButton(_ sender: UIButton) {
-        guard let phone = phoneNumberField.text, !phone.isEmpty, let password = passwordField.text, !password.isEmpty else {
-            return
-        }
-        loginBtnTapped?()
+//        guard let phone = phoneNumberField.text, !phone.isEmpty, let password = passwordField.text, !password.isEmpty else {
+//            return
+//        }
+        let dashboardVC = DashboardTabBarController()
+        dashboardVC.modalPresentationStyle = .fullScreen
+        self.present(dashboardVC, animated: true)
     }
     
     // MARK: - Methods

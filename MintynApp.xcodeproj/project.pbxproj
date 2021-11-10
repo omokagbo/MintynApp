@@ -16,7 +16,6 @@
 		B4FF7BF9273ACD00001B0462 /* MintynAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7BF8273ACD00001B0462 /* MintynAppTests.swift */; };
 		B4FF7C03273ACD00001B0462 /* MintynAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */; };
 		B4FF7C05273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */; };
-		B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */; };
 		B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */; };
 		B4FF7C1F273AD4B7001B0462 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */; };
 		B4FF7C22273AD532001B0462 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */; };
@@ -78,7 +77,6 @@
 		B4FF7BFE273ACD00001B0462 /* MintynAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MintynAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FF7C02273ACD00001B0462 /* MintynAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITests.swift; sourceTree = "<group>"; };
 		B4FF7C04273ACD00001B0462 /* MintynAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MintynAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B4FF7C1C273AD4B7001B0462 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		B4FF7C21273AD532001B0462 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
@@ -167,7 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				B4FF7C12273ACD23001B0462 /* App+Scene Delegate */,
-				B4FF7C18273AD297001B0462 /* Coordinators */,
+				B4FF7C6B273BF981001B0462 /* Models */,
+				B4FF7C6E273BFA15001B0462 /* ViewModels */,
 				B4FF7C13273ACD37001B0462 /* LaunchScreen */,
 				B4FF7C15273AD1E1001B0462 /* Login */,
 				B4FF7C47273B2830001B0462 /* Dashboard */,
@@ -176,8 +175,6 @@
 				B4FF7C43273B2121001B0462 /* Cards */,
 				B4FF7C44273B212E001B0462 /* Settings */,
 				B4FF7C45273B2138001B0462 /* Support */,
-				B4FF7C6B273BF981001B0462 /* Models */,
-				B4FF7C6E273BFA15001B0462 /* ViewModels */,
 				B4FF7C20273AD519001B0462 /* Helpers and Extensions */,
 				B4FF7C14273ACDD3001B0462 /* Resources */,
 			);
@@ -234,14 +231,6 @@
 				B4FF7C1D273AD4B7001B0462 /* LoginViewController.xib */,
 			);
 			path = Login;
-			sourceTree = "<group>";
-		};
-		B4FF7C18273AD297001B0462 /* Coordinators */ = {
-			isa = PBXGroup;
-			children = (
-				B4FF7C19273AD2B8001B0462 /* AppCoordinator.swift */,
-			);
-			path = Coordinators;
 			sourceTree = "<group>";
 		};
 		B4FF7C20273AD519001B0462 /* Helpers and Extensions */ = {
@@ -592,7 +581,6 @@
 				B4FF7C4A273B284D001B0462 /* DashboardTabBarController.swift in Sources */,
 				B4FF7C5F273B2923001B0462 /* SupportViewController.swift in Sources */,
 				B4FF7C1E273AD4B7001B0462 /* LoginViewController.swift in Sources */,
-				B4FF7C1A273AD2B8001B0462 /* AppCoordinator.swift in Sources */,
 				B4FF7C6A273BE3C2001B0462 /* Constants.swift in Sources */,
 				B4FF7C26273AD679001B0462 /* Gradient Button.swift in Sources */,
 				B4FF7BE2273ACCFD001B0462 /* AppDelegate.swift in Sources */,

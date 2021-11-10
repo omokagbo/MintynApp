@@ -9,7 +9,6 @@ import Foundation
 import UIKit
 
 struct SettingsOptions {
-    let title: String?
-    let image: String?
-    let handler: (() -> Void)?
+    let title: String
+    let image: String
 }

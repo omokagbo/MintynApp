@@ -12,6 +12,7 @@ class DashboardTabBarController: UITabBarController, UITabBarControllerDelegate 
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
+        self.navigationItem.hidesBackButton = true
         delegate = self
         setupTabBar()
         setupNavbar()
