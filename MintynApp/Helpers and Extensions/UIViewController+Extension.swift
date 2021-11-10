@@ -16,7 +16,7 @@ extension UIViewController {
     }
     
     public func setupNavbar() {
-        self.navigationController?.navigationBar.tintColor = .black
+        self.navigationController?.navigationBar.tintColor = .systemGray2
 //        self.navigationController?.navigationBar.topItem?.title = " "
 //        self.navigationController?.navigationBar.isTranslucent = true
         let appearance = UINavigationBarAppearance()
