@@ -22,6 +22,7 @@ class SystemViewController: UIViewController {
     private let tableView: UITableView = {
         let table = UITableView()
         table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        table.separatorStyle = .none
         return table
     }()
     
