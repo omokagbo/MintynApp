@@ -68,12 +68,18 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func didTapLoginButton(_ sender: UIButton) {
-//        guard let phone = phoneNumberField.text, !phone.isEmpty, let password = passwordField.text, !password.isEmpty else {
-//            return
-//        }
-        let dashboardVC = DashboardTabBarController()
-        dashboardVC.modalPresentationStyle = .fullScreen
-        self.present(dashboardVC, animated: true)
+        if let phone = phoneNumberField.text, let password = passwordField.text {
+            if phone == "81234567890" && password == "qwerty1234" {
+                let dashboardVC = DashboardTabBarController()
+                dashboardVC.modalPresentationStyle = .fullScreen
+                self.present(dashboardVC, animated: true)
+            } else {
+                self.showDefaultAlert(title: "Error", message: "Invalid Login Details. Please, try again.")
+            }
+        }
+        
+        
+        
     }
     
     // MARK: - Methods

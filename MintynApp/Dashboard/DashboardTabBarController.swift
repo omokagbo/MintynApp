@@ -9,6 +9,8 @@ import UIKit
 
 class DashboardTabBarController: UITabBarController, UITabBarControllerDelegate {
     
+    var something = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -16,6 +18,7 @@ class DashboardTabBarController: UITabBarController, UITabBarControllerDelegate 
         delegate = self
         setupTabBar()
         setupNavbar()
+        print(something)
     }
    
     fileprivate func setupTabBar() {

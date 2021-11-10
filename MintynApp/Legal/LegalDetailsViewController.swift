@@ -26,6 +26,7 @@ class LegalDetailsViewController: UIViewController {
         view = webView
         webView.navigationDelegate = self
         webView.allowsBackForwardNavigationGestures = true
+        title = optionTitle
         presentWebView()
     }
     
