@@ -43,19 +43,19 @@ From the splash screen, the user is taken to the Login screen. There is an phone
 
 ### HOME
 
-<img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210297-13beeebb-a140-4aca-a0b8-6e229af4cfd9.png"><img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210308-f719afc7-6328-4742-af08-c80dee79647c.png"><img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210317-4c5201f1-fb50-4d62-bc38-e39aaff7f5f0.png">
+<img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210297-13beeebb-a140-4aca-a0b8-6e229af4cfd9.png"> <img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210308-f719afc7-6328-4742-af08-c80dee79647c.png"> <img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141210317-4c5201f1-fb50-4d62-bc38-e39aaff7f5f0.png">
 
 
 
 ### FINANCES
 
-<img width="275" alt="Finances" src="https://user-images.githubusercontent.com/69020285/141252411-a8900d2b-0f1b-4848-8516-988b1d8944d0.png"><img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141252432-476ff8d3-8147-4376-9cd7-d01861e8996c.png">
+<img width="275" alt="Finances" src="https://user-images.githubusercontent.com/69020285/141252411-a8900d2b-0f1b-4848-8516-988b1d8944d0.png"> <img width="275" alt="Home" src="https://user-images.githubusercontent.com/69020285/141252432-476ff8d3-8147-4376-9cd7-d01861e8996c.png">
 
 
 
 ### CARDS
 
-<img width="275" alt="Cards" src="https://user-images.githubusercontent.com/69020285/141252544-97c489f3-99db-44f4-9594-2434f5b37885.png"><img width="275" alt="Cards" src="https://user-images.githubusercontent.com/69020285/141252553-1ab047f9-e253-47ed-9b95-664081c9a329.png">
+<img width="275" alt="Cards" src="https://user-images.githubusercontent.com/69020285/141252544-97c489f3-99db-44f4-9594-2434f5b37885.png"> <img width="275" alt="Cards" src="https://user-images.githubusercontent.com/69020285/141252553-1ab047f9-e253-47ed-9b95-664081c9a329.png">
 
 
 
@@ -67,7 +67,7 @@ From the splash screen, the user is taken to the Login screen. There is an phone
 
 ### SETTINGS
 
-<img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252752-b818b240-1e7b-465b-b304-6e5d3dde6e3e.png"><img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252759-4721cade-2342-4141-bc28-4157ef9a0486.png"><img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252778-057c5fe7-143d-4287-9aca-8fd28c967532.png"><img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252786-a9ae0d41-b232-4c6c-9c66-d124831a406e.png">
+<img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252752-b818b240-1e7b-465b-b304-6e5d3dde6e3e.png"> <img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252759-4721cade-2342-4141-bc28-4157ef9a0486.png"> <img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252778-057c5fe7-143d-4287-9aca-8fd28c967532.png"> <img width="275" alt="settings" src="https://user-images.githubusercontent.com/69020285/141252786-a9ae0d41-b232-4c6c-9c66-d124831a406e.png">
 
 
 
