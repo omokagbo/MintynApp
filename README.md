@@ -37,7 +37,7 @@ From the splash screen, the user is taken to the Login screen. There is an phone
 
 **To successfully login, enter "81234567890" into the phone number field without the quotation marks and "qwerty1234" into the password field without the quotation marks as well. Any other login details will throw up an error.**
 
-<img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209760-ca41dda7-9f1f-46d0-839d-b6b83bd529f7.png"><img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209832-9ce4253a-cbd3-4a4f-8148-54ae41c40c3c.png"><img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209821-c4c008e1-aac2-416a-9ddc-0f9b866e245e.png">
+<img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209760-ca41dda7-9f1f-46d0-839d-b6b83bd529f7.png"> <img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209832-9ce4253a-cbd3-4a4f-8148-54ae41c40c3c.png"> <img width="278" alt="Login screen" src="https://user-images.githubusercontent.com/69020285/141209821-c4c008e1-aac2-416a-9ddc-0f9b866e245e.png">
 
 
 
